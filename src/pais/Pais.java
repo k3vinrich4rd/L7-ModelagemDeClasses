@@ -1,2 +1,4 @@
-package país;public class Pais {
+package pais;
+
+public class Pais {
 }
