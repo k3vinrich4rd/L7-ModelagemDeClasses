@@ -9,7 +9,7 @@ ____________________________________
    b) Métodos de acesso (getter/setter) para as propriedades código ISSO, nome, população e dimensão do pais;
    d) Um método que informe se outro pais é vizinho do pais que recebeu a mensagem;
    e) Um método que retorne a densidade populacional do pais;
-2) 
-3) ------------------------------------------------------------------------------------------------------------
+
+2) ------------------------------------------------------------------------------------------------------------
    BÔNUS) Crie um método que receba um pais como parâmetro e retorne a lista de vizinhos comuns aos dois países.
 _______________________________________________________________________________________________________________
