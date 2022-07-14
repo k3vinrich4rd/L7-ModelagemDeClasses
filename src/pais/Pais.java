@@ -20,51 +20,14 @@ public class Pais {
     }
 
 
-    public void statusBrasil() {
-        System.out.println("--------------------------------");
-        System.out.println("Informações referente ao país: ");
-        System.out.println("--------------------------------");
-        System.out.println("Código ISO: " + this.codigoIso + "\nNome do pais: " + this.nomeDoPais +
-                "\nNúmero populacional: " + this.populacao + " milhões de habitantes " + "\nDimensão: "
-                + this.dimensao + " km²" + "\nPossui fronteiras com: " + this.listaVizinhos + "\n");
-
-    }
-
-    public void statusArgentina() {
+    public void status() {
         System.out.println("\n--------------------------------");
         System.out.println("Informações referente ao país: ");
         System.out.println("--------------------------------");
-        System.out.println("Código ISO: " + this.codigoIso + "\nNome do pais: " + this.nomeDoPais +
-                "\nNúmero populacional: " + this.populacao + " milhões de habitantes " + "\nDimensão: "
-                + this.dimensao + " km²" + "\nPossui fronteiras com: " + this.listaVizinhos + "\n");
-
-    }
-
-    public void statusParaguai(){
-        System.out.println("\n--------------------------------");
-        System.out.println("Informações referente ao país: ");
-        System.out.println("--------------------------------");
-        System.out.println("Código ISO: " + this.codigoIso + "\nNome do pais: " + this.nomeDoPais +
-                "\nNúmero populacional: " + this.populacao + " milhões de habitantes " + "\nDimensão: "
-                + this.dimensao + " km²" + "\nPossui fronteiras com: " + this.listaVizinhos + "\n");
-    }
-
-    public void statusBolivia(){
-        System.out.println("\n--------------------------------");
-        System.out.println("Informações referente ao país: ");
-        System.out.println("--------------------------------");
-        System.out.println("Código ISO: " + this.codigoIso + "\nNome do pais: " + this.nomeDoPais +
-                "\nNúmero populacional: " + this.populacao + " milhões de habitantes " + "\nDimensão: "
-                + this.dimensao + " km²" + "\nPossui fronteiras com: " + this.listaVizinhos + "\n");
-    }
-
-    public void statusColombia(){
-        System.out.println("\n--------------------------------");
-        System.out.println("Informações referente ao país: ");
-        System.out.println("--------------------------------");
-        System.out.println("Código ISO: " + this.codigoIso + "\nNome do pais: " + this.nomeDoPais +
-                "\nNúmero populacional: " + this.populacao + " milhões de habitantes " + "\nDimensão: "
-                + this.dimensao + " km²" + "\nPossui fronteiras com: " + this.listaVizinhos + "\n");
+        System.out.println("Código ISO: " + getCodigoIso() + "\nNome do pais: " + getNomeDoPais() +
+                "\nNúmero populacional: " + getPopulacao() + " milhões de habitantes " + "\nDimensão: "
+                + getDimensao() + " km²");
+        System.out.printf("A sua densidade demográfica é de: %.2f km²", this.densidadeDemografica());
     }
 
 
