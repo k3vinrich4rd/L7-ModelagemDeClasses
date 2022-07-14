@@ -25,11 +25,37 @@ public class Pais {
         System.out.println("--------------------------------");
         System.out.println("Código ISO: " + this.codigoIso + "\nNome do pais: " + this.nomeDoPais +
                 "\nNúmero populacional: " + this.populacao + " milhões de habitantes " + "\nDimensão: "
-                + this.dimensao + " km²" + "\nPossui fronteiras com: " + this.listaVizinhos);
-        System.out.println("--------------------------------");
+                + this.dimensao + " km²" + "\nPossui fronteiras com: " + this.listaVizinhos + "\n");
 
     }
 
+    public void statusArgentina() {
+        System.out.println("\n--------------------------------");
+        System.out.println("Informações referente ao país: ");
+        System.out.println("--------------------------------");
+        System.out.println("Código ISO: " + this.codigoIso + "\nNome do pais: " + this.nomeDoPais +
+                "\nNúmero populacional: " + this.populacao + " milhões de habitantes " + "\nDimensão: "
+                + this.dimensao + " km²" + "\nPossui fronteiras com: " + this.listaVizinhos + "\n");
+
+    }
+
+    public void statusParaguai(){
+        System.out.println("\n--------------------------------");
+        System.out.println("Informações referente ao país: ");
+        System.out.println("--------------------------------");
+        System.out.println("Código ISO: " + this.codigoIso + "\nNome do pais: " + this.nomeDoPais +
+                "\nNúmero populacional: " + this.populacao + " milhões de habitantes " + "\nDimensão: "
+                + this.dimensao + " km²" + "\nPossui fronteiras com: " + this.listaVizinhos + "\n");
+    }
+
+    public void statusBolivia(){
+        System.out.println("\n--------------------------------");
+        System.out.println("Informações referente ao país: ");
+        System.out.println("--------------------------------");
+        System.out.println("Código ISO: " + this.codigoIso + "\nNome do pais: " + this.nomeDoPais +
+                "\nNúmero populacional: " + this.populacao + " milhões de habitantes " + "\nDimensão: "
+                + this.dimensao + " km²" + "\nPossui fronteiras com: " + this.listaVizinhos + "\n");
+    }
 
 
     public boolean verificacaoFronteira(String nomePais) {
