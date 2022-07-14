@@ -22,7 +22,7 @@ public class PaisMain {
         System.out.println("O Brasil tem fronteira com a Argentina? " + brasil.verificacaoFronteira("Argentina"));
 
         List<String> vizinhosArgentina = new ArrayList<>();
-        Pais argentina = new Pais("AR","Argentina",45.38,2.780,vizinhosArgentina);
+        Pais argentina = new Pais("ARG","Argentina",45.38,2.780,vizinhosArgentina);
         vizinhosArgentina.add("Brasil");
         vizinhosArgentina.add("Uruguai");
         vizinhosArgentina.add("Paraguai");
