@@ -6,13 +6,21 @@ import java.util.Scanner;
 
 public class PaisMain {
     public static void main(String[] args) {
+        List<String> vizinhosBrasil = new ArrayList<>();
+        List<String> vizinhosArgentina = new ArrayList<>();
+        List<String> vizinhosParaguai = new ArrayList<>();
+        List<String> vizinhosBolivia = new ArrayList<>();
+        List<String> vizinhosColombia = new ArrayList<>();
+
+
+
         Scanner input = new Scanner(System.in);
         System.out.print("Digite: (1 - Brasil)  /  (2 - Argentina)  /  (3 - Paraguai)  /  (4 - Bolivia)  /  (5 - Colômbia)" +
                 "\nQual país você gostaria de conhecer: ");
         int numeroDeEscolha = input.nextInt();
 
         if (numeroDeEscolha == 1) {
-            List<String> vizinhosBrasil = new ArrayList<>();
+
             Pais brasil = new Pais("BRA", "Brasil", 212.6, 8.516, vizinhosBrasil);
             vizinhosBrasil.add("Argentina");
             vizinhosBrasil.add("Uruguai");
@@ -32,7 +40,7 @@ public class PaisMain {
 
 
         } else if (numeroDeEscolha == 2) {
-            List<String> vizinhosArgentina = new ArrayList<>();
+
             Pais argentina = new Pais("ARG", "Argentina", 45.38, 2.780, vizinhosArgentina);
             vizinhosArgentina.add("Brasil");
             vizinhosArgentina.add("Uruguai");
@@ -47,7 +55,7 @@ public class PaisMain {
             System.out.print("A Argentina tem fronteira com " + respostaDoUsuario2 + " ? " + argentina.verificacaoFronteira(respostaDoUsuario2));
 
         } else if (numeroDeEscolha == 3) {
-            List<String> vizinhosParaguai = new ArrayList<>();
+
             Pais paraguai = new Pais("PRY", "Paraguai", 63.4, 4.06, vizinhosParaguai);
             vizinhosParaguai.add("Argentina");
             vizinhosParaguai.add("Bolívia");
@@ -60,7 +68,7 @@ public class PaisMain {
 
         } else if (numeroDeEscolha == 4) {
 
-            List<String> vizinhosBolivia = new ArrayList<>();
+
             Pais bolivia = new Pais("BOL", "Bolívia", 12.57, 1.09, vizinhosBolivia);
             vizinhosBolivia.add("Argentina");
             vizinhosBolivia.add("Brasil");
@@ -75,7 +83,7 @@ public class PaisMain {
 
         } else if (numeroDeEscolha == 5) {
 
-            List<String> vizinhosColombia = new ArrayList<>();
+
             Pais colombia = new Pais("COL", "Colômbia", 51.88, 1.14, vizinhosColombia);
             vizinhosColombia.add("Brasil");
             vizinhosColombia.add("Equador");
