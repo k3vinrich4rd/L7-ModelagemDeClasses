@@ -18,7 +18,8 @@ public class PaisMain {
         vizinhosBrasil.add("Guiana Francesa");
         vizinhosBrasil.add("Suriname");
         brasil.statusBrasil();
-        System.out.printf("A sua densidade demográfica é de: %.2f km²", brasil.densidadeDemografica());
+        System.out.printf("A sua densidade demográfica é de: %.2f km²\n", brasil.densidadeDemografica());
+        System.out.println("A Argentina divide território com o brasil? " + brasil.verificacaoFronteira("Argentina"));
 
 
     }
