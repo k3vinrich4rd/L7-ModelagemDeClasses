@@ -19,6 +19,7 @@ public class Pais {
         this.listaVizinhos = listaVizinhos;
     }
 
+
     public void statusBrasil() {
         System.out.println("--------------------------------");
         System.out.println("Informações referente ao país: ");
@@ -49,6 +50,15 @@ public class Pais {
     }
 
     public void statusBolivia(){
+        System.out.println("\n--------------------------------");
+        System.out.println("Informações referente ao país: ");
+        System.out.println("--------------------------------");
+        System.out.println("Código ISO: " + this.codigoIso + "\nNome do pais: " + this.nomeDoPais +
+                "\nNúmero populacional: " + this.populacao + " milhões de habitantes " + "\nDimensão: "
+                + this.dimensao + " km²" + "\nPossui fronteiras com: " + this.listaVizinhos + "\n");
+    }
+
+    public void statusColombia(){
         System.out.println("\n--------------------------------");
         System.out.println("Informações referente ao país: ");
         System.out.println("--------------------------------");

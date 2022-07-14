@@ -52,5 +52,15 @@ public class PaisMain {
         System.out.printf("A sua densidade demográfica é de: %.2f km²\n", bolivia.densidadeDemografica());
         System.out.println("A Bolívia faz fronteira com o Uruguai? " + bolivia.verificacaoFronteira("Uruguai"));
 
+        List<String> vizinhosColombia = new ArrayList<>();
+        Pais colombia = new Pais("COL", "Colômbia",51.88,1.14,vizinhosColombia);
+        vizinhosColombia.add("Brasil");
+        vizinhosColombia.add("Equador");
+        vizinhosColombia.add("Venezuela");
+        vizinhosColombia.add("Peru");
+        vizinhosColombia.add("Panamá");
+        colombia.statusColombia();
+        System.out.printf("A sua densidade demográfica é de: %.2f km²\n", colombia.densidadeDemografica());
+        System.out.println("A Bolívia faz fronteira com o Uruguai? " + colombia.verificacaoFronteira("Uruguai"));
     }
 }
